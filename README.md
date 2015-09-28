@@ -1,7 +1,7 @@
 # README
 
 ## Overview:
-This script (combine.sh) is designed for University of Virginia Collab system. This script processes the bulk_download.zip file from Collab, reads in student submitted attachments, converts these attachments to pdf files, and combines the generated pdf files into one pdf file for printing.
+This script (combine.sh) is designed for University of Virginia Collab system. This script processes the bulk_download.zip file from Collab, reads in student submitted attachments, converts these attachments to pdf files, and combines the generated pdf files into one pdf file for printing. In the final pdf, each student's sumbission starts with a cover page with the student's name and computing ID on it. You still have to manual staple the papers.
 
 ## Usage:
 bash combine.sh /path/to/bulk_download.zip
